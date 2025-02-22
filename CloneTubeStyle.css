@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.bigContainer{
+    width: 1520px;
+    height: 1055px;
+}
+
+.header{
+    width: 1520px;
+    height: 57px;
+    border: none;
+    display: flex;
+}
+
+.sideTab{
+    width: 75px;
+    border: none;
+    
+}
+
+.thumbnailSection{
+    width: 1440px;
+    height: 997px;
+    border: none;
+}
+
+.sideTab, .thumbnailSection{
+    display: inline-block;
+}
+
+.sideTab{
+    vertical-align: top;
+}
+
+.leftSection,.midSection, .rightSection{
+    display: flex;
+    border: none;
+}
+
+.listPic{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.listPic:hover{
+    background-color: rgb(193, 188, 188);
+    border-radius: 50%;
+}
+
+.youtubeLogo{
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.midSection{
+    margin-left: 330px;
+}
+
+.searchBar{
+    width: 358px;
+    height: 40px;
+}
+.searchButton{
+    width: 64px;
+    height: 40px;
+}
+
+.searchButton,.microButton{
+    cursor: pointer;
+}
+
+.searchPic,.microPic{
+    width: 24px;
+    height: 24px;
+}
+
+.microButton{
+    width: 40px;
+    height: 40px;
+}
+
+.rightSection{
+    margin-left: 350px;
+    justify-content: space-between;
+}
+
+.uploadPic, .appPic, .bellPic{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.appPic,.bellPic,.selfAva{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.selfAva{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.sideBarFuntion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.sideBarFuntion:hover{
+    background-color: rgb(214, 210, 210);
+}
+
+.homePic, .explorePic, .subPic, .originalPic, .musicPic, .libraryPic{
+    width: 24px;
+    height: 24px;
+    margin-left: 25px;
+}
+
+.home,.explore,.origin,.sub,.music,.library{
+    text-align: center;
+    font-size: 13px;
+}
+
+.thumbContainerOne, .thumbContainerTwo, .thumbContainerThree, .thumbContainerFour, .thumbContainerFive, .thumbContainerSix{
+border: none;
+width: 400px;
+height: 370px;
+text-align: center;
+display: inline-block;
+margin-top: 5px;
+}
+
+.thumb1Pic, .thumb2Pic, .thumb3Pic, .thumb4Pic, .thumb5Pic, .thumb6Pic{
+width: 400px;
+height: 240px;
+cursor: pointer;
+}
+
+.avaOne, .avaTwo, .avaThree, .avaFour, .avaFive, .avaSix{
+width: 48px;
+border-radius: 50%;
+}
+
+.avaThumbOne,.titleOne, .avaThumbTwo, .titleTwo, .avaThumbThree, .titleThree, .avaThumbFour, .titleFour, .avaThumbFive, .titleFive, .avaThumbSix, .titleSix{
+border: none;
+display: inline-block;
+text-align: left;
+}
+
+.avaThumbOne, .avaThumbTwo, .avaThumbThree, .avaThumbFour,.avaThumbFive,.avaThumbSix{
+width: 60px;
+height: 54px;
+vertical-align:top;
+margin-left: -25px;
+}
+
+.titleOne, .titleTwo, .titleThree, .titleFour, .titleFive, .titleSix{
+width: 300px;
+cursor: pointer;
+}
+
+.avaOne, .avaTwo, .avaThree, .avaFour, .avaFive, .avaSix{
+    cursor: pointer;
+}
+
+.thumbContainerOne{
+margin-left: 25px;
+}
+
+.thumbContainerTwo{
+margin-left: 30px;
+}
+
+.thumbContainerThree{
+margin-left: 43px;
+}
+
+.thumbContainerFour{
+margin-left: 13px;
+}
+
+.thumbContainerFive{
+margin-left: 36px;
+}
+
+.thumbContainerSix{
+margin-left: 47px;
+}
+
+p{
+color: gray;
+}
+
+p:hover{
+color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkContent:visited{
+    color: black;
+}
+
+.linkAu:visited{
+    color: gray;
+}
+
+a:visited{
+    color: black;
+}
